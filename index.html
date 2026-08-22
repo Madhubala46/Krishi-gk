@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Krishigk</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <header>
+    <div class="top-head">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 "></div>
+          <div class="col-6  flex top-contact ">
+            <p><i class="fa-solid fa-envelope"></i>kumari@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>+91 8789479530</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <nav>
+      <div class="container">
+        <div class="row align-center ">
+          <!-- Logo -->
+          <div class="col-6">
+            <div class="top-nav-img">
+              <img src="img/logo-2.png" alt="logo" height="100" width="100">
+            </div>
+          </div>
+
+          <!-- Menu -->
+          <div class="col-6">
+            <div class="navbar">
+
+              <!-- Hamburger -->
+              <div class="menu-toggle" id="menuToggle">
+                <i class="fa-solid fa-bars"></i>
+              </div>
+
+              <ul class="flex justify-space-bet nav-menu" id="navMenu">
+                <li><a class="active" href="#">Home</a></li>
+                <li><a href="About.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contactUs.html">Contact Us</a></li>
+                <li class="desktop-login">
+                  <button id="openLoginBtn">Login</button>
+                </li>
+              </ul>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </nav>
+
+
+  </header>
+
+  <div class="login-modal  align-center" id="loginModal">
+    <div class="login-box">
+      <span class="close-btn" id="closeBtn">&times;</span>
+      <h2>Login</h2>
+      <div class="input-field flex align-center">
+        <i class="fa-solid fa-envelope"></i>
+        <input type="email" placeholder="Email">
+      </div>
+      <div class="input-field flex align-center">
+        <i class="fa-solid fa-lock"></i>
+        <input type="password" placeholder="Password">
+      </div>
+      <button class="login-submit" onclick="showAlert()">Login</button>
+    </div>
+  </div>
+
+
+  <div class="main-page">
+    <div class="row">
+      <div class="col-12 main-img">
+        <img src="img/grass.avif" alt="grass" class="img-resp" height="500" id="slider">
+
+        <div class="row overlay">
+          <div class="col-6 col-m-12"></div>
+
+          <div class="col-6 text-center col-m-12">
+            <h1>Jai Kisan</h1>
+            <p>The future of smart and profitable farming.</p>
+            <button onclick="window.location.href='contactUs.html'">
+              Contact us now for advanced agricultural tips.
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <section class="feature-section">
+      <div class="container">
+        <div class="row ">
+          <div class="col-4 col-p-12  col-m-12">
+            <div class="feature-card text-center">
+              <h3>Precision Farming: Soil, water, and nutrient analysis.</h3>
+              <img src="img/img1.avif" alt="">
+            </div>
+          </div>
+
+          <div class="col-4 col-p-12 col-m-12">
+            <div class="feature-card text-center">
+              <h3>Pest & Disease Detection: AI + imagery-based alerts.</h3>
+              <img src="img/img2.avif" alt="">
+            </div>
+          </div>
+
+          <div class="col-4 col-p-12 col-m-12">
+            <div class="feature-card text-center">
+              <h3>Weather Forecasting: Localized, accurate weather predictions.</h3>
+              <img src="img/img3.avif" alt="">
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="row ">
+          <div class="col-6 vehicle col-m-12">
+            <img src="img/tractor.png" alt=" about-image" height="600" width="600" class="img-resp">
+          </div>
+          <div class="col-6  About col-m-12">
+            <h2>About Us</h2>
+            <h1>Empowering Farmers with Smart Agriculture Solutions</h1>
+            <p>One of the keys to our survival is how healthy food our farmers produce for
+              close to 9 billion of us. In India, 1.5 billion people depend upon the farmers
+              for food. At present, our efficiency of farm produce is less than a quarter of
+              what Israel produces. <b></b> can change this scenario for our farmers
+              and naturally for us. In the pace of <b>technological advancements</b>, we had almost
+              forgotten our breadwinners. Farming is an all hardships imagined. Lets make it
+              easy, efficient, and profitable for our farmers.
+            </p>
+            <p>Being born among them and seeing them struggling on the field, on the streets,
+              in the market is the most important pain we want to reduce. Our farmers despite
+              working very hard are left unattended to the mercy of climate or any natural
+              course. Floods or droughts, cold waves or heats waves, animal grazing, birds
+              pecking, fire, or any social unrest; the farm is lying unprotected with one hope.
+              Farmers take all the risks with little or no external assistance.
+            </p>
+
+            <div class="agree">
+              <p><i class="fa-solid fa-square-check"></i> &nbsp;<b>Making agriculture resilient and rewarding</b> </p>
+              <p><i class="fa-solid fa-square-check"></i> &nbsp; <b>Promoting sustainable and eco-friendly farming
+                  practices</b></p>
+              <p><i class="fa-solid fa-square-check"></i> &nbsp; <b>Leveraging technology for smart and efficient
+                  farming</b></p>
+              <p><i class="fa-solid fa-square-check"></i> &nbsp; <b>Providing farmers access to global markets and fair
+                  prices</b></p>
+              <p><i class="fa-solid fa-square-check"></i> &nbsp; <b> Enhancing productivity through innovation and
+                  digital tools</b></p>
+              <p><i class="fa-solid fa-square-check"></i> &nbsp; <b>Empowering farmers with knowledge, training, and
+                  resources</b></p>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="text-center intro service ">
+        <h2>Our Services</h2>
+        <h1>What We Offer</h1>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="new-cart  ">
+          <div class="row ">
+            <div class="col-3 card col-m-12 col-p-12">
+              <div class="cards">
+                <p>Satellite Image Based Advisory</p>
+              </div>
+            </div>
+            <div class="col-3 card col-m-12 col-p-12">
+              <div class="cards">
+                <p>Satellite Image Based Advisory</p>
+              </div>
+            </div>
+            <div class="col-3 card col-m-12 col-p-12 ">
+              <div class="cards">
+                <p>Satellite Image Based Advisory</p>
+              </div>
+            </div>
+            <div class="col-3 card col-m-12 col-p-12">
+              <div class="cards">
+                <p>Satellite Image Based Advisory</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-3 col-m-6 col-p-12">
+            <div class="service-card text-center">
+              <img src="img/horizontal3.avif" alt="" class="img-resp">
+              <p>Precision Farming: Soil, water,<b>and nutrient analysis.</b> </p>
+            </div>
+          </div>
+
+          <div class="col-3 col-m-6 col-p-12">
+            <div class="service-card text-center">
+              <img src="img/horizontal4.avif" alt="" class="img-resp">
+              <p>Pest & Disease Detection: <b>AI + imagery based alerts.</b></p>
+            </div>
+          </div>
+
+          <div class="col-3 col-m-6 col-p-12">
+            <div class="service-card text-center">
+              <img src="img/horizontal5.avif" alt="" class="img-resp">
+              <p>Weather Forecasting: Localized, <b>accurate weather predictions.</b></p>
+            </div>
+          </div>
+
+          <div class="col-3 col-m-6 col-p-12">
+            <div class="service-card text-center">
+              <img src="img/horizontal6.avif" alt="" class="img-resp">
+              <p>Market Intelligence: Price trends and <b>demand forecasts.</b></p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="row ">
+          <div class="col-6 our-solution col-p-12 col-m-12">
+            <img src="img/far-main.webp" alt=" about-image" height="600" width="700" class="img-resp">
+          </div>
+          <div class="col-6 col-p-12 col-m-12 About ">
+            <h2>Our Solutions</h2>
+            <h1>Why Choose KrishiGK</h1>
+            <p>A sustainable and viable intervention to optimize the agriculture
+              sector of India is not only an undeniable need but also is a responsibility
+              of anyone who can contribute. This is exactly why we have collaborated to
+              play our role in reducing the pains of the farmers in the best possible ways we can.
+            </p>
+            <p>Leadership Team: Founder bios, roles, and their contribution to agri-tech.
+              Partners: Collaborations with government, NGOs, and agri-institutes.
+            </p>
+
+            <div class="agree">
+              <p><i class="fa-solid fa-square-check"></i> &nbsp;<b>Agriculture-Input : Sales and advisory
+                  integration.</b> </p>
+              <p><i class="fa-solid fa-square-check"></i> &nbsp; <b>Farmer Welfare Services</b></p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="contact-banner main-img">
+      <img src="img/grass.avif" alt="" class="img-resp">
+      <button onclick="window.location.href='contactUs.html'">
+        Contact us now for advanced agricultural tips.
+      </button>
+    </div>
+
+    <section>
+      <div class="text-center intro service ">
+        <h2>From the Blog</h2>
+        <h1>News & Articles</h1>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-4 col-p-12 col-m-12">
+            <div class="blog-card text-center">
+              <div class="blog-img">
+                <img src="img/img1.avif" alt="" class="img-resp">
+              </div>
+              <div class="blogtext">
+                <h2>Early warning of pest infestation in soybean and cotton…</h2>
+                <p>Soybean and cotton are the main Kharif crops in the Gandhian region. These
+                  crops provide good income to farmers. However, various pests attack them from time to time. […]</p>
+              </div>
+              <button>Learn More</button>
+            </div>
+          </div>
+
+          <div class="col-4 col-p-12 col-m-12">
+            <div class="blog-card text-center">
+              <div class="blog-img">
+                <img src="img/img1.avif" alt="" class="img-resp">
+              </div>
+              <div class="blogtext">
+                <h2>Bio-pesticides in farming…</h2>
+                <p>Preeti Sharma The use of pesticides to protect crops from pests and diseases is common
+                  in agriculture these days. However, excessive use of chemical pesticides can harm the soil, […]</p>
+              </div>
+              <button>Learn More</button>
+            </div>
+          </div>
+
+
+          <div class="col-4 col-p-12 col-m-12">
+            <div class="blog-card text-center">
+              <div class="blog-img">
+                <img src="img/img1.avif" alt="" class="img-resp">
+              </div>
+              <div class="blogtext">
+                <h2>Bio-pesticides in farming…</h2>
+                <p>Preeti Sharma The use of pesticides to protect crops from pests and diseases is common
+                  in agriculture these days. However, excessive use of chemical pesticides can harm the soil, […]</p>
+              </div>
+              <button>Learn More</button>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="row   ">
+        <div class="col-3  col-t-6 col-m-12">
+          <div class="text-center">
+            <img src="img/logo-2.png" alt="logo" height="200" width="200" />
+          </div>
+        </div>
+
+        <div class="col-3  col-t-6 col-m-12">
+          <p><a href="index.html">Home</a></p>
+          <p><a href="About.html">About Us</a></p>
+          <p><a href="services.html">Services</a></p>
+          <p><a href="blog.html">Blog</a></p>
+          <p><a href="contactUs.html">Contact Us</a></p>
+        </div>
+        <div class="col-3  col-t-6 align-center col-m-12">
+          <p>Early warning signs of pest infestation in soybean and castor crops.</p>
+          <p>When pesticides play a role in farming</p>
+          <p>Migration Due to Low Agricultural Income: A Growing Challenge for Rural Economy</p>
+          <p>When pesticides play a role in farming</p>
+          <p>Soil Solarization: A Scientific and Chemical-Free Technique</p>
+        </div>
+        <div class="col-3 col-t-6 col-m-12">
+          <p> <i class="fa-solid fa-envelope"></i> &nbsp;
+            <a href="mailto:support@krishigk.com"> kumarimadhu87@gmail.com </a>
+          </p>
+          <p><i class="fa-solid fa-phone"></i> &nbsp;
+            <a href="tel:+919179025510"> +91 9179025510 </a>
+          </p>
+          <p><i class="fa-solid fa-location-dot"></i> &nbsp;<a href="">KrishiGK</a></p>
+          <div class="flex icon">
+            <p><i class="fa-brands fa-instagram"></i></p>
+            <p><i class="fa-brands fa-x-twitter"></i></p>
+            <p><i class="fa-brands fa-facebook"></i></p>
+
+          </div>
+        </div>
+
+
+      </div>
+
+    </div>
+    <div class="author">
+      <p>Copyright @ 2026 madhu</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
